@@ -47,5 +47,14 @@
       "\tnotifyListeners();",
       "}"
     ]
+  },
+  "pushToNewPage": {
+    "prefix": "pushToNewPage",
+    "body": [
+      "Navigator.push(context,",
+      "\t\tCupertinoPageRoute(builder: (context) {",
+      "\treturn $1($2);",
+      "}));"
+    ]
   }
 }

@@ -1,0 +1,19 @@
+{
+  "modalClassProvider": {
+    "prefix": "modalClassProvider",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class $1Model extends ChangeNotifier {",
+      "\tbool _isLoading = false;",
+      "\tbool get isLoading => _isLoading;",
+      "\t",
+
+      "\tFuture<void> initTask() async {",
+      "\t\t// TODO : Implement Inittask",
+      "\t}",
+      "\t",
+      "}"
+    ]
+  }
+}

@@ -63,5 +63,13 @@
       "double width = MediaQuery.of(context).size.width;",
       "double height = MediaQuery.of(context).size.height;"
     ]
-  }
+  },
+  "aaatest": {
+		"prefix": "aaatest",
+		"body": [
+			"test('$1', () async {",
+			"\t$2",
+			"});"
+		]
+	}
 }
